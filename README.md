@@ -150,7 +150,7 @@ Add screenshots of:
 BS Information Technology  
 Quaid-i-Azam University Islamabad
 
-GitHub: https://github.com/AreebaTahir00
+GitHub: https://github.com/areeba-tahir2005
 
 LinkedIn: https://www.linkedin.com/in/areeba-tahir2005/
 
