@@ -102,12 +102,33 @@ GEMINI_API_KEY=
 
 Add screenshots of:
 
-- Home Page
-- Generator
-- Generated Captions
-- Favorites
-- History
-- Dashboard
+### Home Page
+
+![Home](screenshots/home.png)
+
+### Sign Up
+
+![SignUp](screenshots/Signup.png)
+
+### Sign In
+
+![SignIn](screenshots/Signin.png)
+
+### Generator Page
+
+![Favorites](screenshots/Generator.png)
+
+### Generated Captions
+
+![Captions](screenshots/Caption1.png)
+
+![Captions](screenshots/Caption2.png)
+
+### Dashboard
+
+![Dashboard](screenshots/Dashboard.png)
+
+
 
 ---
 
