@@ -18,7 +18,7 @@ const features = [
     icon: HiOutlineLanguage,
     title: "3 Languages",
     description:
-      "English, Urdu Script and Roman Urdu—all generated instantly.",
+      "English, Urdu Script and Roman Urdu, all generated instantly.",
   },
   {
     icon: HiOutlineDevicePhoneMobile,

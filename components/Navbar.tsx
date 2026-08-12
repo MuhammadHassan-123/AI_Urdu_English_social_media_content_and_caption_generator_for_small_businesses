@@ -7,6 +7,7 @@ import { useRouter } from "next/navigation";
 import { useAuth } from "@/components/AuthProvider";
 import PlanBadge from "./PlanBadge";
 import { logout } from "@/lib/auth";
+import DashboardDropdown from "@/components/DashboardDropdown";
 
 import {
   HiSparkles,
@@ -147,12 +148,19 @@ export default function Navbar() {
 
               <PlanBadge />
 
-              <Link
-                href="/dashboard"
-                className="rounded-full bg-brand-600 px-5 py-2.5 text-sm font-semibold text-white transition-all duration-200 hover:scale-105 hover:bg-brand-700 active:scale-95"
-              >
-                Dashboard
-              </Link>
+              <div className="group relative">
+   <Link
+    href="/dashboard"
+    className="inline-flex items-center gap-1 text-sm font-semibold text-ink-soft transition-colors hover:text-brand-600"
+  >
+    Dashboard
+  </Link>
+
+  {/* Dashboard Dropdown */}
+  <div className="absolute right-0 top-full z-50 hidden pt-3 group-hover:block">
+    <DashboardDropdown />
+  </div>
+</div>
 
               <button
                 onClick={handleLogout}

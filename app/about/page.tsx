@@ -21,27 +21,27 @@ const SECTIONS = [
   {
     icon: HiOutlineFlag,
     title: "Our Mission",
-    body: "Small Pakistani businesses — kirana stores, home bakers, tailors, tuition centers — don't have time to write social media content every single day, in two languages, on top of running the business itself. LikhoAI exists to give that time back, so posting stays consistent without eating up an owner's evening.",
+    body: "Small Pakistani businesses, kirana stores, home bakers, tailors, tuition centers, don't have time to write social media content every single day, in two languages, on top of running the business itself. LikhoAI exists to give that time back, so posting stays consistent without eating up an owner's evening.",
   },
   {
     icon: HiOutlineSparkles,
     title: "Why LikhoAI?",
-    body: "Most AI writing tools are built for English-first, Western markets. They miss local flavor entirely — the natural code-switching between Urdu script, Roman Urdu, and English that real Pakistani businesses actually post in. LikhoAI is built around that mix from the ground up, not bolted on as an afterthought.",
+    body: "Most AI writing tools are built for English-first, Western markets. They miss local flavor entirely, the natural code-switching between Urdu script, Roman Urdu, and English that real Pakistani businesses actually post in. LikhoAI is built around that mix from the ground up, not bolted on as an afterthought.",
   },
   {
     icon: HiOutlineUserGroup,
     title: "Who is it for?",
-    body: "Shop owners, home-based sellers, local influencers, tutors, and clinics who post on Facebook, Instagram, TikTok, or WhatsApp Status — and want captions, hashtags, and content ideas ready in seconds instead of hours.",
+    body: "Shop owners, home-based sellers, local influencers, tutors, and clinics who post on Facebook, Instagram, TikTok, or WhatsApp Status, and want captions, hashtags, and content ideas ready in seconds instead of hours.",
   },
   {
     icon: HiOutlineMapPin,
     title: "Built for Pakistani businesses",
-    body: "From Eid sales to Ramzan promotions, from price-sensitive customers to WhatsApp Status as a primary marketing channel — LikhoAI understands the context that generic tools don't, because it was designed around it from day one.",
+    body: "From Eid sales to Ramzan promotions, from price-sensitive customers to WhatsApp Status as a primary marketing channel, LikhoAI understands the context that generic tools don't, because it was designed around it from day one.",
   },
   {
     icon: HiOutlineCpuChip,
     title: "AI Powered by Gemini",
-    body: "LikhoAI runs on Google's Gemini model, chosen for its strength in multilingual and creative writing. It's fast, understands nuance across English and Urdu, and keeps getting better — but we always recommend a quick human check on prices, dates, and facts before you post.",
+    body: "LikhoAI runs on Google's Gemini model, chosen for its strength in multilingual and creative writing. It's fast, understands nuance across English and Urdu, and keeps getting better, but we always recommend a quick human check on prices, dates, and facts before you post.",
   },
 ];
 
@@ -94,7 +94,7 @@ export default function AboutPage() {
               Helping Pakistani businesses show up online, every single day.
             </h1>
             <p className="mx-auto mt-4 max-w-xl text-[15px] leading-relaxed text-ink-soft">
-              LikhoAI is a small tool built for a very specific, very real problem — one shared by
+              LikhoAI is a small tool built for a very specific, very real problem, one shared by
               thousands of shop owners, home sellers, and small teams across Pakistan.
             </p>
 
@@ -190,7 +190,7 @@ export default function AboutPage() {
               Have a question or feedback?
             </h2>
             <p className="relative max-w-md text-sm text-ink-soft">
-              We&apos;d love to hear from you — whether it&apos;s a bug, a business type we
+              We&apos;d love to hear from you, whether it&apos;s a bug, a business type we
               haven&apos;t covered yet, or just a hello.
             </p>
             <Link

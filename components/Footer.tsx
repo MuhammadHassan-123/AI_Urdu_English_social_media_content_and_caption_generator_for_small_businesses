@@ -38,7 +38,7 @@ export default function Footer() {
               Ready to save hours on content?
             </p>
             <p className="mt-1 text-sm text-ink-soft">
-              Generate your first batch of captions, free — no card required.
+              Generate your first batch of captions, free, no card required.
             </p>
           </div>
           <Link
@@ -65,7 +65,7 @@ export default function Footer() {
               </span>
             </Link>
             <p className="mt-3 max-w-[16rem] text-sm leading-relaxed text-ink-soft">
-              Ready-to-post captions in Urdu, Roman Urdu, and English — made for
+              Ready-to-post captions in Urdu, Roman Urdu, and English, made for
               Pakistani small businesses.
             </p>
 

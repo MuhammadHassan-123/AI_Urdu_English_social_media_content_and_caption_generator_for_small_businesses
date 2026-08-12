@@ -13,6 +13,13 @@ type Errors = {
   message?: string;
 };
 
+// ========================================
+// YOUR WHATSAPP NUMBER
+// Pakistan example: 923001234567
+// Do NOT use +, spaces, or dashes.
+// ========================================
+const WHATSAPP_NUMBER = "923121571200";
+
 export default function ContactForm() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -42,28 +49,46 @@ export default function ContactForm() {
     }
 
     setErrors(next);
+
     return Object.keys(next).length === 0;
   }
 
-  async function handleSubmit(e: React.FormEvent) {
+  function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
 
     if (!validate()) return;
 
     setSending(true);
 
-    // Future:
-    // Connect to Resend, Firebase, Supabase or /api/contact
+    const whatsappMessage = `
+Hello LikhoAI Team! 👋
 
-    setTimeout(() => {
-      setSending(false);
-      setSent(true);
+I have a message from the LikhoAI Contact Form.
 
-      setName("");
-      setEmail("");
-      setMessage("");
-      setErrors({});
-    }, 700);
+Name: ${name.trim()}
+
+Email: ${email.trim()}
+
+Message:
+${message.trim()}
+
+Thank you.
+    `.trim();
+
+    const whatsappURL = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(
+      whatsappMessage
+    )}`;
+
+    // Open WhatsApp with the message already filled in
+    window.open(whatsappURL, "_blank", "noopener,noreferrer");
+
+    setSending(false);
+    setSent(true);
+
+    setName("");
+    setEmail("");
+    setMessage("");
+    setErrors({});
   }
 
   if (sent) {
@@ -74,13 +99,13 @@ export default function ContactForm() {
         </span>
 
         <h2 className="font-heading text-2xl font-bold text-ink">
-          🎉 Thank You!
+          🎉 Message Ready!
         </h2>
 
         <p className="max-w-sm text-sm leading-relaxed text-ink-soft">
-          Your message has been received successfully.
+          WhatsApp has been opened with your message.
           <br />
-          We&apro;ll get back to you as soon as possible.
+          Please press <strong>Send</strong> in WhatsApp to complete it.
         </p>
 
         <button
@@ -108,10 +133,15 @@ export default function ContactForm() {
           placeholder="Your name"
           onChange={(e) => {
             setName(e.target.value);
-            setErrors((prev) => ({ ...prev, name: undefined }));
+            setErrors((prev) => ({
+              ...prev,
+              name: undefined,
+            }));
           }}
           className={`w-full rounded-xl border bg-white px-4 py-2.5 text-sm outline-none transition focus:border-brand-600 ${
-            errors.name ? "border-rose-400" : "border-border-soft"
+            errors.name
+              ? "border-rose-400"
+              : "border-border-soft"
           }`}
         />
 
@@ -139,10 +169,15 @@ export default function ContactForm() {
             placeholder="you@example.com"
             onChange={(e) => {
               setEmail(e.target.value);
-              setErrors((prev) => ({ ...prev, email: undefined }));
+              setErrors((prev) => ({
+                ...prev,
+                email: undefined,
+              }));
             }}
             className={`w-full rounded-xl border bg-white py-2.5 pl-10 pr-4 text-sm outline-none transition focus:border-brand-600 ${
-              errors.email ? "border-rose-400" : "border-border-soft"
+              errors.email
+                ? "border-rose-400"
+                : "border-border-soft"
             }`}
           />
         </div>
@@ -167,16 +202,23 @@ export default function ContactForm() {
           placeholder="How can we help?"
           onChange={(e) => {
             setMessage(e.target.value);
-            setErrors((prev) => ({ ...prev, message: undefined }));
+            setErrors((prev) => ({
+              ...prev,
+              message: undefined,
+            }));
           }}
           className={`w-full resize-none rounded-xl border bg-white px-4 py-2.5 text-sm outline-none transition focus:border-brand-600 ${
-            errors.message ? "border-rose-400" : "border-border-soft"
+            errors.message
+              ? "border-rose-400"
+              : "border-border-soft"
           }`}
         />
 
         <div
           className={`mt-2 text-right text-xs ${
-            message.length > 450 ? "text-red-500" : "text-gray-500"
+            message.length > 450
+              ? "text-red-500"
+              : "text-gray-500"
           }`}
         >
           {message.length}/500
@@ -189,7 +231,7 @@ export default function ContactForm() {
         )}
       </div>
 
-      {/* Button */}
+      {/* Send Button */}
       <button
         type="submit"
         disabled={sending}
@@ -197,7 +239,7 @@ export default function ContactForm() {
       >
         <HiOutlinePaperAirplane size={16} />
 
-        {sending ? "Sending..." : "Send Message"}
+        {sending ? "Opening WhatsApp..." : "Send Message"}
       </button>
     </form>
   );

@@ -18,7 +18,7 @@ export default function Hero() {
           </h1>
 
           <p className="mt-5 max-w-md text-[15px] leading-relaxed text-ink-soft">
-            Apni dukan, service ya offer likhein — AI banayega 10 ready-to-post
+            Apni dukan, service ya offer likhein, AI banayega 10 ready-to-post
             captions Urdu, Roman Urdu aur English mein, hashtags aur reel
             ideas ke saath.
           </p>

@@ -7,7 +7,7 @@ const FAQS = [
   {
     question: "Is it free?",
     answer:
-      "Yes — you can generate a limited number of caption sets every day for free. If you post daily and want unlimited generations, custom brand voice, and analytics, a premium plan is available too.",
+      "Yes, you can generate a limited number of caption sets every day for free. If you post daily and want unlimited generations, custom brand voice, and analytics, a premium plan is available too.",
   },
   {
     question: "Which AI model is used?",
@@ -17,7 +17,7 @@ const FAQS = [
   {
     question: "Can I generate Urdu captions?",
     answer:
-      "Yes. Every generation gives you Urdu script, Roman Urdu, and English versions, so you can pick whichever fits your audience — or mix them across your post.",
+      "Yes. Every generation gives you Urdu script, Roman Urdu, and English versions, so you can pick whichever fits your audience, or mix them across your post.",
   },
   {
     question: "Do I need an account?",

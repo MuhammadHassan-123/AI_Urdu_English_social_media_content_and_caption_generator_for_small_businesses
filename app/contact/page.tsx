@@ -23,7 +23,7 @@ export default function ContactPage() {
             We&apos;d love to hear from you
           </h1>
           <p className="mx-auto mt-3 max-w-md text-[15px] text-ink-soft">
-            Questions, feedback, or a business type we should support next — send it over.
+            Questions, feedback, or a business type we should support next, send it over.
           </p>
         </section>
 
