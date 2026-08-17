@@ -5,7 +5,7 @@ import Pricing from "@/components/Pricing";
 
 export const metadata: Metadata = {
   title: "Pricing",
-  description: "Simple, freemium pricing for LikhoAI — free to start, upgrade when you need more.",
+  description: "Simple, freemium pricing for ContentHUB — free to start, upgrade when you need more.",
 };
 
 export default function PricingPage() {

@@ -22,15 +22,15 @@ const nastaliq = Noto_Nastaliq_Urdu({
   variable: "--font-nastaliq",
 });
 
-const siteUrl = "https://likhoai.com"; // TODO: replace with your real production domain
+const siteUrl = "https://contenthub.com"; // TODO: replace with your real production domain
 const description =
   "AI caption generator for Pakistani small businesses. Urdu, Roman Urdu, and English captions, hashtags, and post ideas in one click, powered by Google Gemini.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "LikhoAI — Roz ka social media content, ek click mein",
-    template: "%s | LikhoAI",
+    default: "ContentHUB — Roz ka social media content, ek click mein",
+    template: "%s | ContentHUB",
   },
   description,
   keywords: [
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     "Facebook Instagram TikTok captions",
     "Gemini AI content tool",
   ],
-  authors: [{ name: "LikhoAI" }],
+  authors: [{ name: "ContentHUB" }],
   icons: {
     icon: "/favicon.ico",
   },
@@ -50,13 +50,13 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_PK",
     url: siteUrl,
-    siteName: "LikhoAI",
-    title: "LikhoAI — Roz ka social media content, ek click mein",
+    siteName: "ContentHUB",
+    title: "ContentHUB — Roz ka social media content, ek click mein",
     description,
   },
   twitter: {
     card: "summary_large_image",
-    title: "LikhoAI — Roz ka social media content, ek click mein",
+    title: "ContentHUB — Roz ka social media content, ek click mein",
     description,
   },
 };

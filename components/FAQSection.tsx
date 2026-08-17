@@ -12,7 +12,7 @@ const FAQS = [
   {
     question: "Which AI model is used?",
     answer:
-      "LikhoAI is powered by Google's Gemini model, chosen specifically for its strength in multilingual and creative writing across English, Urdu, and Roman Urdu.",
+      "ContentHUB is powered by Google's Gemini model, chosen specifically for its strength in multilingual and creative writing across English, Urdu, and Roman Urdu.",
   },
   {
     question: "Can I generate Urdu captions?",

@@ -15,7 +15,7 @@ const steps = [
     icon: HiOutlineSparkles,
     title: "2. AI Generates Content",
     description:
-      "LikhoAI creates 5 unique captions, hashtags, reel ideas, story ideas and image prompts in seconds.",
+      "ContentHUB creates 5 unique captions, hashtags, reel ideas, story ideas and image prompts in seconds.",
   },
   {
     icon: HiOutlineClipboardDocument,

@@ -53,7 +53,7 @@ export function exportAsText(result: GenerationResult) {
 
   a.href = url;
 
-  a.download = "LikhoAI-Content.txt";
+  a.download = "ContentHUB-Content.txt";
 
   a.click();
   toast.success("TXT exported successfully!");

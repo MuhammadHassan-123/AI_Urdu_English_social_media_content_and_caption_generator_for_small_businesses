@@ -11,7 +11,7 @@ export default function AuthLayout({ children }: { children: React.ReactNode }) 
           </span>
           <span className="flex flex-col items-start leading-none">
             <span className="font-heading text-lg font-extrabold tracking-tight text-ink">
-              LikhoAI
+              ContentHUB
             </span>
             <span className="text-[10px] font-semibold tracking-[0.18em] text-muted">
               URDU · ENGLISH

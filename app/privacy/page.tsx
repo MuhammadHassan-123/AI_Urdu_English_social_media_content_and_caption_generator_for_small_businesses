@@ -4,7 +4,7 @@ import LegalLayout, { LegalSection } from "@/components/LegalLayout";
 
 export const metadata: Metadata = {
   title: "Privacy Policy",
-  description: "How LikhoAI collects, uses, and protects your information.",
+  description: "How ContentHUB collects, uses, and protects your information.",
 };
 
 const LAST_UPDATED = "18 July 2026"; // TODO: keep this in sync when you actually change the policy
@@ -14,9 +14,9 @@ export default function PrivacyPolicyPage() {
     <LegalLayout title="Privacy Policy" updated={LAST_UPDATED}>
       <LegalSection title="1. Introduction">
         <p>
-          This Privacy Policy explains how LikhoAI (&quot;we&quot;, &quot;us&quot;) collects,
+          This Privacy Policy explains how ContentHUB (&quot;we&quot;, &quot;us&quot;) collects,
           uses, and protects information when you use our website and caption generator. By
-          using LikhoAI, you agree to the practices described here.
+          using ContentHUB, you agree to the practices described here.
         </p>
       </LegalSection>
 
@@ -34,7 +34,7 @@ export default function PrivacyPolicyPage() {
           </li>
           <li>
             <span className="font-semibold text-ink">Usage data</span> — general information
-            about how you use LikhoAI, such as which business categories and platforms are
+            about how you use ContentHUB, such as which business categories and platforms are
             selected most often, used to improve the product.
           </li>
         </ul>
@@ -98,7 +98,7 @@ export default function PrivacyPolicyPage() {
 
       <LegalSection title="9. Children's Privacy">
         <p>
-          LikhoAI is intended for business owners and is not directed at children. We do not
+          ContentHUB is intended for business owners and is not directed at children. We do not
           knowingly collect personal information from anyone under 18.
         </p>
       </LegalSection>

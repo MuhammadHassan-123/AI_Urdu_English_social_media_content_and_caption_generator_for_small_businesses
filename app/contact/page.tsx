@@ -6,7 +6,7 @@ import ContactForm from "@/components/ContactForm";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Get in touch with the LikhoAI team — questions, feedback, or a business type we should support next.",
+    "Get in touch with the ContentHUB team, questions, feedback, or a business type we should support next.",
 };
 
 export default function ContactPage() {

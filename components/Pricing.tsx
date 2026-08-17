@@ -4,7 +4,7 @@ const plans = [
   {
     name: "Free",
     price: "Rs. 0",
-    description: "Perfect for trying LikhoAI.",
+    description: "Perfect for trying ContentHUB.",
     featured: false,
     button: "Start Free",
 

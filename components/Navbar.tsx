@@ -103,7 +103,7 @@ export default function Navbar() {
           <div className="leading-tight">
 
             <h1 className="font-heading text-xl font-extrabold tracking-tight text-ink">
-              LikhoAI
+              ContentHUB
             </h1>
 
             <p className="text-[11px] font-semibold tracking-[0.20em] text-muted uppercase">

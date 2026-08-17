@@ -61,9 +61,9 @@ export default function ContactForm() {
     setSending(true);
 
     const whatsappMessage = `
-Hello LikhoAI Team! 👋
+Hello ContentHUB Team! 👋
 
-I have a message from the LikhoAI Contact Form.
+I have a message from the ContentHUB Contact Form.
 
 Name: ${name.trim()}
 

@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 
 export const runtime = "edge";
-export const alt = "LikhoAI — Roz ka social media content, ek click mein.";
+export const alt = "ContentHUB — Roz ka social media content, ek click mein.";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -44,7 +44,7 @@ export default async function OpengraphImage() {
             ✦
           </div>
           <div style={{ display: "flex", flexDirection: "column" }}>
-            <span style={{ fontSize: 40, fontWeight: 800, color: "#16181c" }}>LikhoAI</span>
+            <span style={{ fontSize: 40, fontWeight: 800, color: "#16181c" }}>ContentHUB</span>
             <span style={{ fontSize: 16, letterSpacing: 4, color: "#7a7d82" }}>
               URDU · ENGLISH
             </span>

@@ -61,7 +61,7 @@ export default function Footer() {
                 <HiSparkles size={16} />
               </span>
               <span className="font-heading text-base font-extrabold tracking-tight text-ink">
-                LikhoAI
+                ContentHUB
               </span>
             </Link>
             <p className="mt-3 max-w-[16rem] text-sm leading-relaxed text-ink-soft">
@@ -139,7 +139,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-12 flex flex-col items-center gap-2 border-t border-border-soft/70 pt-6 text-xs text-muted sm:flex-row sm:justify-between">
-          <p>© {new Date().getFullYear()} LikhoAI. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} ContentHUB. All rights reserved.</p>
           <p>Made with ❤️ in Pakistan</p>
         </div>
       </div>

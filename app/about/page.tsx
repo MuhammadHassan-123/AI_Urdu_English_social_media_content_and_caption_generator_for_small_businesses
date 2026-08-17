@@ -14,19 +14,19 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "LikhoAI helps Pakistani small businesses generate ready-to-post Urdu, Roman Urdu, and English social media content in one click, powered by Google Gemini.",
+    "ContentHUB helps Pakistani small businesses generate ready-to-post Urdu, Roman Urdu, and English social media content in one click, powered by Google Gemini.",
 };
 
 const SECTIONS = [
   {
     icon: HiOutlineFlag,
     title: "Our Mission",
-    body: "Small Pakistani businesses, kirana stores, home bakers, tailors, tuition centers, don't have time to write social media content every single day, in two languages, on top of running the business itself. LikhoAI exists to give that time back, so posting stays consistent without eating up an owner's evening.",
+    body: "Small Pakistani businesses, kirana stores, home bakers, tailors, tuition centers, don't have time to write social media content every single day, in two languages, on top of running the business itself. ContentHUB exists to give that time back, so posting stays consistent without eating up an owner's evening.",
   },
   {
     icon: HiOutlineSparkles,
-    title: "Why LikhoAI?",
-    body: "Most AI writing tools are built for English-first, Western markets. They miss local flavor entirely, the natural code-switching between Urdu script, Roman Urdu, and English that real Pakistani businesses actually post in. LikhoAI is built around that mix from the ground up, not bolted on as an afterthought.",
+    title: "Why ContentHUB?",
+    body: "Most AI writing tools are built for English-first, Western markets. They miss local flavor entirely, the natural code-switching between Urdu script, Roman Urdu, and English that real Pakistani businesses actually post in. ContentHUB is built around that mix from the ground up, not bolted on as an afterthought.",
   },
   {
     icon: HiOutlineUserGroup,
@@ -36,12 +36,12 @@ const SECTIONS = [
   {
     icon: HiOutlineMapPin,
     title: "Built for Pakistani businesses",
-    body: "From Eid sales to Ramzan promotions, from price-sensitive customers to WhatsApp Status as a primary marketing channel, LikhoAI understands the context that generic tools don't, because it was designed around it from day one.",
+    body: "From Eid sales to Ramzan promotions, from price-sensitive customers to WhatsApp Status as a primary marketing channel, ContentHUB understands the context that generic tools don't, because it was designed around it from day one.",
   },
   {
     icon: HiOutlineCpuChip,
     title: "AI Powered by Gemini",
-    body: "LikhoAI runs on Google's Gemini model, chosen for its strength in multilingual and creative writing. It's fast, understands nuance across English and Urdu, and keeps getting better, but we always recommend a quick human check on prices, dates, and facts before you post.",
+    body: "ContentHUB runs on Google's Gemini model, chosen for its strength in multilingual and creative writing. It's fast, understands nuance across English and Urdu, and keeps getting better, but we always recommend a quick human check on prices, dates, and facts before you post.",
   },
 ];
 
@@ -88,13 +88,13 @@ export default function AboutPage() {
           <div className="relative">
             <span className="mb-5 inline-flex items-center gap-2 rounded-full bg-brand-100 px-4 py-1.5 text-xs font-semibold text-brand-700">
               <span className="h-1.5 w-1.5 rounded-full bg-brand-600" />
-              About LikhoAI
+              About ContentHUB
             </span>
             <h1 className="mx-auto max-w-2xl font-heading text-3xl font-extrabold leading-tight tracking-tight text-ink sm:text-4xl md:text-5xl">
               Helping Pakistani businesses show up online, every single day.
             </h1>
             <p className="mx-auto mt-4 max-w-xl text-[15px] leading-relaxed text-ink-soft">
-              LikhoAI is a small tool built for a very specific, very real problem, one shared by
+              ContentHUB is a small tool built for a very specific, very real problem, one shared by
               thousands of shop owners, home sellers, and small teams across Pakistan.
             </p>
 
@@ -147,7 +147,7 @@ export default function AboutPage() {
               Who We Help
             </h2>
             <p className="mx-auto mb-10 max-w-md text-center text-sm text-ink-soft">
-              If you post about your business online, LikhoAI was probably built with you in mind.
+              If you post about your business online, ContentHUB was probably built with you in mind.
             </p>
 
             <div className="grid grid-cols-2 gap-3 sm:grid-cols-5">
