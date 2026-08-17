@@ -1,6 +1,6 @@
-# 🚀 LikhoAI – AI Social Media Caption Generator
+# 🚀 ContentHUB– AI Social Media Caption Generator
 
-LikhoAI is an AI-powered web application that helps small businesses, creators, and entrepreneurs generate engaging social media content in **English, Urdu, and Roman Urdu**.
+ContentHUB is an AI-powered web application that helps small businesses, creators, and entrepreneurs generate engaging social media content in **English, Urdu, and Roman Urdu**.
 
 Users can create multiple caption variations, hashtags, reel ideas, story ideas, and image prompts within seconds using AI.
 
@@ -54,7 +54,7 @@ git clone <repository-url>
 Move into the project
 
 ```bash
-cd likhoai
+cd contenthub
 ```
 
 Install dependencies

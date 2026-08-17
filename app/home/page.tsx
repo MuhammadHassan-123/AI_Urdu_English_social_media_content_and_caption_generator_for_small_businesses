@@ -207,20 +207,25 @@ export default function Home() {
           )}
 
           {user && (
-            <HistorySection
-              history={history}
-              onRefresh={loadHistory}
-              onView={(item) => {
-                setResult(item.result);
+  <div
+    id="history"
+    className="scroll-mt-24"
+  >
+    <HistorySection
+      history={history}
+      onRefresh={loadHistory}
+      onView={(item) => {
+        setResult(item.result);
 
-                setTimeout(() => {
-                  outputRef.current?.scrollIntoView({
-                    behavior: "smooth",
-                  });
-                }, 100);
-              }}
-            />
-          )}
+        setTimeout(() => {
+          outputRef.current?.scrollIntoView({
+            behavior: "smooth",
+          });
+        }, 100);
+      }}
+    />
+  </div>
+)}
 
           <Pricing />
 
